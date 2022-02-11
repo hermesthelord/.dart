@@ -1,2 +1,1 @@
-# .dart
- import 'dart:io';  void main(){    print("Toplama (1)");   print("Cixma (2)");   print("Vurma (3)");   print("Bolme (4)");    int tercih = int.parse(stdin.readLineSync()!);   print("Tercihiniz : $tercih");    print("Birinci sayini girin");   int sayi1 = int.parse(stdin.readLineSync()!);    print("Ikinci sayini girin");   int sayi2 = int.parse(stdin.readLineSync()!);    switch(tercih){     case 1 : {       print("Toplama : ${sayi1+sayi2}");     }     break;      case 2: {       print("Cixma : ${sayi1-sayi2}");     }     break;      case 3 : {       print("Vurma : ${sayi1*sayi2}");     }     break;      case 4 : {       print("Bolme : ${sayi1/sayi2}");      }     break;      default: {       print("Bele funksiya yoxdur");     }    break;   }   }
+
